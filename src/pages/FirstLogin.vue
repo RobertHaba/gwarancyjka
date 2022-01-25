@@ -127,7 +127,7 @@ export default {
         },
       ],
       userID: null,
-      imgURL: '',
+      imgURL: ''
     };
   },
   methods: {

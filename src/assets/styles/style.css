@@ -157,7 +157,7 @@ h2 {
 }
 
 .icon--color-reverse {
-    filter: invert(100%);
+    filter: invert(100%)
 }
 
 .icon--add {
