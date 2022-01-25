@@ -1,0 +1,414 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+button,
+audio,
+video,
+select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    color: var(--main-text);
+}
+
+body {
+    font-family: 'Montserrat';
+    overflow: hidden;
+}
+
+*::-webkit-scrollbar {
+    scrollbar-width: 5px;
+    scrollbar-color: red;
+}
+
+li {
+    list-style-type: none;
+}
+
+:root {
+    --body-main: #322f49;
+    --body-second: #414159;
+    --main-purple: #7651aa;
+    --light-purple: #b291e0;
+    --main-text: #fff;
+    --sub-text: #d3d3d3;
+    --easeOutQuart: all 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    --mainShadow: 0px 25px 50px -12px rgba(118, 81, 170, 0.7);
+    --lightShadow: 0px 25px 50px -12px rgba(118, 81, 170, 0.25);
+    --smallShadow: rgba(0, 0, 0, 0.432) 0px 10px 15px -3px, rgba(118, 81, 170, 0.301) 0px 4px 6px -2px;
+    --smallShadowReverse: rgba(0, 0, 0, 0.432) 0px -10px 15px -3px, rgba(118, 81, 170, 0.301) 0px -4px 6px -2px;
+}
+
+.print-page-warranty-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1mm;
+    padding: 2mm;
+}
+
+.print-page-warranty-content li {
+    list-style-type: decimal;
+    list-style-position: outside;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.icon {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-size: 100% 100%;
+}
+
+.icon--color-reverse {
+    filter: invert(100%);
+}
+
+.icon--add {
+    background-image: url('../icons/add.svg');
+}
+
+.icon--home {
+    background-image: url('../icons/home.svg');
+}
+
+.icon--phone {
+    background-image: url('../icons/phone.svg');
+}
+
+.icon--email {
+    background-image: url('../icons/email.svg');
+}
+
+.icon--add-page {
+    background-image: url('../icons/add-page.svg');
+}
+
+.icon--arrow-down {
+    background-image: url('../icons/arrow-down.svg');
+}
+
+.icon--close {
+    background-image: url('../icons/close.svg');
+}
+
+.icon--print {
+    background-image: url('../icons/print.svg');
+}
+
+.icon--save {
+    background-image: url('../icons/save.svg');
+}
+
+.icon--settings {
+    background-image: url('../icons/settings.svg');
+}
+
+.icon--edit {
+    background-image: url('../icons/edit.svg');
+}
+
+.icon--template {
+    background-image: url('../icons/template.svg');
+}
+
+.icon--view {
+    background-image: url('../icons/view.svg');
+}
+
+.icon--filter {
+    background-image: url('../icons/filter.svg');
+}
+
+.icon--search {
+    background-image: url('../icons/search.svg');
+}
+
+.icon--show {
+    background-image: url('../icons/show.svg');
+}
+
+.icon--sort {
+    background-image: url('../icons/sort.svg');
+}
+
+.icon--positive {
+    background-image: url('../icons/positive.svg');
+}
+
+.icon--negative {
+    background-image: url('../icons/negative.svg');
+}
+
+.icon--info {
+    background-image: url('../icons/info.svg');
+}
+
+.icon--sad {
+    background-image: url('../icons/sad.svg');
+}
+
+.icon--trash {
+    background-image: url('../icons/trash.svg');
+}
+
+.icon--business-deal {
+    background-image: url('../icons/business-deal.svg');
+}
+
+.icon--logo-dell {
+    background-image: url('../icons/logo-dell.svg');
+}
+
+.icon--logo-hp {
+    background-image: url('../icons/logo-hp.svg');
+}
+
+.icon--logo-sony {
+    background-image: url('../icons/logo-sony.svg');
+}
+
+.icon--logo-fujitsu {
+    background-image: url('../icons/logo-fujitsu.svg');
+}
+
+.icon--logo-acer {
+    background-image: url('../icons/logo-acer.svg');
+}
+
+.icon--logo-asus {
+    background-image: url('../icons/logo-asus.svg');
+}
+
+.icon--logo-samsung {
+    background-image: url('../icons/logo-samsung.svg');
+}
+
+.icon--logo-apple {
+    background-image: url('../icons/logo-apple.svg');
+}
+
+.icon--logo-toshiba {
+    background-image: url('../icons/logo-toshiba.svg');
+}
+
+.icon--logo-app {
+    background-image: url('../logo.svg');
+}
+
+input,
+textarea {
+    font-family: 'Montserrat';
+}
+
+.print-page-warranty-content * {
+    color: #000 !important;
+    font-family: 'Montserrat';
+}
+
+.modal-button {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--main-purple);
+    border-radius: 10px;
+    background-color: unset;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.modal-dialog-close:hover,
+.modal-button:hover {
+    transition: var(--easeOutQuart);
+    background-color: var(--main-purple);
+    box-shadow: var(--smallShadow);
+}
+
+.modal-button--active {
+    background-color: var(--main-purple);
+}
+
+.modal-button--bg-color {
+    background-color: var(--main-purple);
+}
+
+.modal-button--active:hover,
+.modal-button--bg-color:hover {
+    transition: var(--easeOutQuart);
+    background-color: var(--body-main);
+}
+
+.modal-dialog-form-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.8rem 2rem;
+    height: 400px;
+    padding: 2rem 0rem 0rem 0;
+}
+
+.modal-dialog-footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1 1;
+    width: 100%;
+    max-width: 330px;
+    padding-right: 1rem;
+}
+
+.modal-dialog-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 82px;
+    border-top: 1px solid var(--main-purple);
+}
+
+@media screen and (max-width: 740px) {
+    .modal-dialog-form-body {
+        flex-direction: row;
+        overflow: auto;
+        justify-content: center;
+        height: 100%;
+    }
+    .modal-dialog-footer {
+        flex: unset;
+    }
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+}
+
+.login-form__button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    max-width: 330px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    background-color: var(--main-purple);
+    transition: var(--easeOutQuart);
+    border: 2px solid var(--main-purple);
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login-form__button--link {
+    background-color: var(--body-main);
+}
+
+.login-form__button:hover {
+    background-color: var(--body-main);
+    transition: var(--easeOutQuart);
+    border: 2px solid var(--main-purple);
+    box-shadow: var(--lightShadow);
+}
+
+.login-form__button--link:hover {
+    background-color: var(--main-purple);
+}
