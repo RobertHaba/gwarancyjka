@@ -3,7 +3,7 @@
 Gwarancyjka to aplikacja, która pozwoli Ci zapanować nad kartami gwarancyjnymi. 
 Z panelu możesz podejrzeć: pozostały czas do końca gwarancji produktu; cenę sprzedaży; dane kupującego; podejrzeć kartę i edytować dane/szablon; wykonać szybki wydruk. Dodatkowo panel pozwala na tworzenie nowych szablonów, ustawienie danych firmy w tym loga, a także na zaawansowane filtrowanie. Nowe karty gwarancyjne ukażą się natychmiast na każdym urządzeniu dzięki trybowi realtime.
 
-##Technologie
+## Technologie
 - HTML, CSS, JS, Vue, Vuex, Supabase, Vue Router
 
 ## Konto testowe
