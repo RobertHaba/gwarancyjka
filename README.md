@@ -10,7 +10,7 @@ Z panelu możesz podejrzeć: pozostały czas do końca gwarancji produktu; cenę
 - **Login**: kqx48260@boofx.com
 - **Hasło**: Test12@
 - Dane są wypełnione domyślnie w polach tekstowych.
-- W przypadku tworzenia konta wymagane jest potwierdzenie przez email
+- W przypadku tworzenia konta **wymagane jest potwierdzenie przez email**
 
 ## Live
 [Przetestuj](http://gwarancyjka.haba.usermd.net/login)
