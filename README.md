@@ -9,11 +9,11 @@ Z panelu możesz podejrzeć: pozostały czas do końca gwarancji produktu; cenę
 ## Konto testowe
 -**Login**: kqx48260@boofx.com
 -**Hasło**: Test12@
-Dane są wypełnione domyślnie w polach tekstowych.
-W przypadku tworzenia konta wymagane jest potwierdzenie przez email
+- Dane są wypełnione domyślnie w polach tekstowych.
+- W przypadku tworzenia konta wymagane jest potwierdzenie przez email
 
 ## Live
-[Przetestuj](https://chatapp.haba.usermd.net/)
+[Przetestuj](http://gwarancyjka.haba.usermd.net/login)
   
 ## Dodatki
 - **Szybki wydruk** - szybki wydruk karty gwarancyjnej z panelu
