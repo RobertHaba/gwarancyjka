@@ -487,16 +487,16 @@ export default {
 }
 
 @media screen and (max-width: 740px) {
-  .print-modal{
+  .print-modal {
     display: block;
     right: unset;
     width: 100%;
     overflow: auto;
   }
-  .print-page-wrapper{
+  .print-page-wrapper {
     overflow: auto;
   }
-  .print-page-container{
+  .print-page-container {
     overflow: auto;
   }
 }
@@ -504,7 +504,8 @@ export default {
 <style>
 @media print {
   *:not(.print-modal *) {
-    overflow: hidden;
+    position: fixed;
+    overflow: none;
   }
 }
 </style>
